@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-cont">
+        <form action="" name="detail">
+            <div class="inside-class">
+                <img src="logo.png" alt="smartserve" class='logo'>
+                <input type="text" placeholder="Username" id='userid' name="usern" class="username"><br>
+                <input type="password" id="pass" name="passw"  placeholder="Password"><br>
+                <input type="submit" id="submit" name="submit" value="Submit" onclick="ValidateUser(document.detail.usern,document.detail.passw)"/>
+                <a href="">Forgot your Password?</a>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

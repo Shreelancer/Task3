@@ -1,0 +1,51 @@
+body{
+    background-color: #141414;
+    margin: 0%;
+}
+.main-cont{
+    background-color: #222222;
+    width: 50%;
+    min-height: 100%;
+    margin: auto;
+}
+form{
+    padding: 18%;
+}
+.inside-class{
+    background-color: #141414;
+    width: 100%;
+    height: 450px;
+    border-radius: 25px;
+}
+.logo{
+    margin-left: 16%;
+}
+input{
+    margin-left: 18%;
+    width: 63%;
+    border-radius: 5px;
+    height: 8%;
+    margin-bottom: 5%;
+}
+.username{
+    margin-top: 7%;
+}
+#submit{
+    margin-left: 18%;
+    width: 65%;
+    height: 10%;
+    background-color: #71be58;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 5%;
+}
+a{
+    color: gray;
+    margin-left: 35%;
+}
